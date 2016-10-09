@@ -263,3 +263,86 @@ perl perl1.pl
 vi perl2.pl
 perl perl2.pl
 exit
+clear
+cat /etc/passwd/
+cat etc/passwd
+cat /etc/passwd
+clear
+ls -la
+vi perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+vi perl3.pl
+perl perl3.pl
+clear
+vi perl4.pl
+perl perl4.pl
+vi perl4.pl
+perl perl4.pl
+vi perl4.pl
+perl perl4.pl
+vi perl4.pl
+perl perl4.pl
+vi perl4.pl
+perl perl4.pl
+vi perl4.pl
+perl perl4.pl
+perl perl4.pl
+clear
+ls -la
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi perl5.pl
+perl perl5.pl
+vi names.txt
+vi filehandle.pl
+ls -la
+git add-A
+git add -A
+git commit 
+git add -A
+git commit-m"wow"
+git commit-m "wow"
+git commit -m "wow"
+git push origin master
+clear
+vi filehandle.pl
+vi filehandle.pl
+perl filehandle.pl
+vi filehandle.pl
+perl filehandle.pl
+vi filehandle.pl
+vi filehandle.pl
+perl filehandle.pl
+perl filehandle.pl
+clear
+exit
