@@ -8,19 +8,27 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/usr
+~MSle0~/kick
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
+:q!
 :wq
 :q
+:=
+:.=
 :s
 :qw
 :w
-:q!
 
 # Search String History (newest to oldest):
+??kick
+?/kick
 ?/usr/bin/perl
 ?/usr/bin/per1
+?/usr/bin/bash
 
 # Expression History (newest to oldest):
 
@@ -29,20 +37,50 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""0	CHAR	0
+	hello
+"-	CHAR	0
+	hello
 
 # File marks:
-'0  1  0  ~/filehandle.pl
-'1  4  28  ~/filehandle.pl
-'2  10  22  ~/filehandle.pl
-'3  18  22  ~/filehandle.pl
-'4  2  0  ~/filehandle.pl
-'5  4  6  ~/names.txt
-'6  6  10  ~/perl5.pl
-'7  22  3  ~/perl5.pl
-'8  18  4  ~/perl5.pl
-'9  14  2  ~/perl5.pl
+'0  9  11  ~/test
+'1  8  0  ~/tes
+'2  1  0  ~/lab02.sh
+'3  2  60  ~/lab02.sh
+'4  3  35  ~/lab02.sh
+'5  11  0  ~/test
+'6  1  0  ~/test
+'7  14  0  ~/test
+'8  15  3  ~/test
+'9  13  4  ~/test
 
 # Jumplist (newest first):
+-'  9  11  ~/test
+-'  1  0  ~/test
+-'  8  0  ~/tes
+-'  1  0  ~/lab02.sh
+-'  2  60  ~/lab02.sh
+-'  3  35  ~/lab02.sh
+-'  11  0  ~/test
+-'  14  0  ~/test
+-'  15  3  ~/test
+-'  13  4  ~/test
+-'  10  14  ~/test
+-'  12  0  ~/test
+-'  6  12  ~/test
+-'  2  13  ~/test
+-'  4  9  ~/test
+-'  9  0  ~/gitest
+-'  10  3  ~/gitest
+-'  8  0  ~/gitest
+-'  4  4  ~/gitest
+-'  2  0  ~/gitest
+-'  1  13  ~/gitest
+-'  3  10  ~/gitest
+-'  5  4  ~/gitest
+-'  4  8  ~/gitest1
+-'  1  0  ~/gitest1
+-'  1  11  ~/foldertest/file1.txt
 -'  1  0  ~/filehandle.pl
 -'  4  28  ~/filehandle.pl
 -'  10  22  ~/filehandle.pl
@@ -114,34 +152,94 @@
 -'  1  0  ~/TOS-B/emas.sh
 -'  10  0  ~/TOS-B/emas.sh
 -'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  6  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  5  33  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/emas.sh
--'  10  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  6  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/bcasqd.txt
--'  5  33  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/emas.sh
--'  10  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  6  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
--'  5  33  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/emas.sh
--'  10  0  ~/TOS-B/emas.sh
--'  1  0  ~/TOS-B/file.xh
--'  1  0  ~/TOS-B/file.xh
 
 # History of marks within files (newest to oldest):
+
+> ~/test
+	"	9	11
+	^	14	0
+	.	9	11
+	+	1	15
+	+	2	12
+	+	3	14
+	+	2	12
+	+	4	9
+	+	2	0
+	+	5	19
+	+	6	15
+	+	7	16
+	+	8	15
+	+	9	43
+	+	10	15
+	+	10	14
+	+	11	23
+	+	13	3
+	+	12	0
+	+	10	14
+	+	15	44
+	+	13	4
+	+	14	0
+	+	9	11
+
+> ~/lab02.sh
+	"	1	0
+	^	2	61
+	.	2	61
+	+	1	88
+	+	1	14
+	+	2	60
+	+	3	33
+	+	2	42
+	+	3	36
+	+	2	61
+	+	3	35
+	+	2	61
+
+> ~/lab02
+	"	3	47
+	^	3	48
+	.	3	48
+	+	1	15
+	+	3	60
+	+	3	75
+	+	1	1
+	+	3	75
+	+	3	48
+	e	3	60
+
+> ~/lab02tes
+	"	1	0
+
+> ~/lab02tes.sh
+	"	3	42
+	^	3	43
+	.	3	0
+	+	3	0
+
+> ~/gitest
+	"	9	0
+	^	3	11
+	.	1	0
+	+	1	11
+	+	1	0
+	+	5	5
+	+	10	3
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/gitest1
+	"	4	8
+	^	4	9
+	.	4	8
+	+	2	15
+	+	4	8
+
+> ~/foldertest/file1.txt
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
 
 > ~/filehandle.pl
 	"	1	0

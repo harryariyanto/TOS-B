@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+@ar=<stdin>;
+
+foreach $ar (@ar)
+{
+
+print "$ar";
+print "\n";
+}

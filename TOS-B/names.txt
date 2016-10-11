@@ -1,0 +1,4 @@
+asu,tus
+wes,wer
+adi,pok
+yut,kut

@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+
+@ar=<stdin>;
+
+print "@ar";

@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+ip address |grep "inet " |cut -f6 -d " " | xargs |echo "`date`" + `awk '{ print "=>"$1" " $2;}'`

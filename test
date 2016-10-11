@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+name=android;
+name+="robin";
+echo $name
+pets=(blacky rusty)
+echo ${pets[*]}
+pets+=(rain bit)
+echo ${pets[*]}
+FILES="file1/path/to/file2/etc/resolv.conf"
+for f in $FILES
+do 
+	echo "Processing $f"
+done
+
+cp $(find /usr/lib/ | grep "\.py$") ~/TOS-B/
+
