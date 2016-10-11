@@ -1,0 +1,33 @@
+No 1
+
+cronjob.sh
+crontab 0 7-19 * * 1-5 /home/m26415133/curl.sh
+
+
+
+
+
+curl.sh
+#!/usr/bin/bash
+curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-624216$
+sed 's/"price"//' | sed 's/://'  |cut -d "\""  -f2 | xargs | awk '{print $1}'  >b.txt
+
+if [[ $1 -lt 15000000 ]];
+then
+echo "Harga dibawah 15000000" |mail -s "Harga turun" m26415133@john.petra.ac.id;
+
+fi
+
+
+
+
+
+
+No.2
+
+tab.sh
+#!/usr/bin/bash
+
+cat Id?c=Id | grep AS |grep -v "input" |cut -d "\\" -f3| grep  0.00 |sed 's/"//g' | $
+sed 's/{/;/g' |sed 's/}/ /g'|sed 's/]//g'  |sort -k1 >no2.csv
+
